@@ -1,0 +1,5 @@
+ssh -l zkaiyue -L localhost:1522:dbhost.students.cs.ubc.ca:1522 remote.students.cs.ubc.ca
+
+jdbc:oracle:thin:@localhost:1522:stu
+
+jdbc:oracle:thin:@dbhost.students.cs.ubc.ca:1522:stu
